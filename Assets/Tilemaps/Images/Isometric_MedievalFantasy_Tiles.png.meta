@@ -1,0 +1,3865 @@
+fileFormatVersion: 2
+guid: 283b13e6eb62f144c8a5c8d2ee976ff0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirt1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a24f4e498bc3442914365bcd235b2e
+      internalID: -1522841545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e368f516802aef44b83cd80698dbba5
+      internalID: -936646263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fd014d04413f54e94a107c797579d2
+      internalID: 1626014986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035b3ca82f0c8534596843eb2bcce361
+      internalID: -1351073295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water1_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac55b5400f965364f8b33c146000e5fd
+      internalID: 776138311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water1_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e0e2a9d10ce34d907a428e58662d1
+      internalID: 512731349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water1_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c1e49b222770742a253c92e206e992
+      internalID: 1911899652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water1_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: 0.5}
+        - {x: -2, y: -2.5}
+        - {x: 2, y: -2.5}
+        - {x: 8, y: 0.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756408680076a9147baf4ff6061d4785
+      internalID: -2098240872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf6d1537dca555458bc670b8537cf05
+      internalID: -1130897072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tombstone
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20855e94ae44c6b4689fe9049ab3441e
+      internalID: 667900823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reed
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 153
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93412e44cbd47b49a021b327dd36886
+      internalID: -1108064390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 0.5}
+        - {x: 2, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8cbbd2d28d9584692476378f13a450
+      internalID: -755187748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f809447cc60e9545a71dae480028d8f
+      internalID: 1688739384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 0.5}
+        - {x: 2, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e5253b89d6cb44870f2007d8012f6
+      internalID: -547684562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 0.5}
+        - {x: 2, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ba46c04827ccd4f89101283ea657b2
+      internalID: -1956513203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water0_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950b85126eaf18747a1cb19a42544987
+      internalID: -1353949180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water0_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc1caeb9b9ca2f43a2c7f2fe911a3cf
+      internalID: -599786544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water0_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b199bd52147fc9944af4688c470a16e0
+      internalID: 787467342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water0_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -3.5}
+        - {x: -2, y: -6.5}
+        - {x: 2, y: -6.5}
+        - {x: 8, y: -3.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5e76778f28d8846baa11f543ee2e29
+      internalID: -2102784639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flower
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8528ab220951bf3469a2b0fd150e749f
+      internalID: -1867144555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a837e9060d1cd94997f86a800bc6b22
+      internalID: 51048509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coral
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43c1bc5b48952498cb763d481b085a
+      internalID: 163469008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62eda06a7b1ff74b8f010c539e15fed
+      internalID: 1721754015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2ae189dd33c31458d41aca443886eb
+      internalID: -463189173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de95190f8e92d5e45bc3e9c4ed3a16fb
+      internalID: 333756328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 8.5}
+        - {x: -4, y: 5.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 4, y: 6.5}
+        - {x: 4, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37252514e1f6304cb1f2bb674db74b3
+      internalID: -1618734306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime1_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1065970de0e68d4182a46d1477f408d
+      internalID: 543481942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime1_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217731225b595a546a621e680038782b
+      internalID: 1279409942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime1_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7853deff8cee9a4a8bc5c3b3c576dc9
+      internalID: -1534661770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime1_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: 0.5}
+        - {x: -2, y: -2.5}
+        - {x: 2, y: -2.5}
+        - {x: 8, y: 0.5}
+        - {x: 8, y: 2.5}
+        - {x: 2, y: 5.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e482b145a20f6834e8ba1bb39ca8e0b3
+      internalID: -1993707793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wood
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9860ad0c7bb5d45adc2703165c9c45
+      internalID: 309744543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hedge
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e21b3981a69314f89ccec9e5afbd4c
+      internalID: -1084285450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pillars
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 119
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eded58630a658f44b3d09be42ccf3c7
+      internalID: 1148387230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 0.5}
+        - {x: 2, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d01f01578badca47994ae50d05a838d
+      internalID: -1208383423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ice0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 0.5}
+        - {x: 2, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61987782357400c47a14fd50a50d8386
+      internalID: -1374986184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 0.5}
+        - {x: 2, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8b2dc42d1489f43ba4f81fe376c886
+      internalID: 1597598919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dry0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 4.5}
+        - {x: -1, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 2.5}
+        - {x: 4, y: 3.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88c2984a84708746a6bedd06ca1efd0
+      internalID: 856162508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime0_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b568c7614d402244bc916d6e1da66a5
+      internalID: 2088630102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime0_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea857392bfe858e499914676654c2c36
+      internalID: -1789149606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime0_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384506ad1545aa142bf5e5845ba9f7e1
+      internalID: 1668230621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime0_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 1.5}
+        - {x: -8, y: -1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: -1.5}
+        - {x: 2, y: 1.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1537f65b317e92e45b8d8ba6678aa215
+      internalID: -1386603896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunk
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1758be54a0e7447b6216fd8844d1e3
+      internalID: -1441056040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactus
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e3b5d4338d5814197935e716096930
+      internalID: -1787012154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spike
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 102
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd3ebe61849b6945b7ffe25bfbf3b04
+      internalID: -715098707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f843ebd1b7d3c4ea48615b5db7cea2
+      internalID: -379221700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fdb3bc30926f840a93566264514e16
+      internalID: 206098678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8951d5e96e590f49a20fb4e53b0bfe1
+      internalID: 819778324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25900644953d4aa448bce23c2bfe17d6
+      internalID: 942851999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d5039612ced494cba4fa550c496f2f
+      internalID: -533975089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350fcdf0f64f8ce478b107740cc848ac
+      internalID: 544816524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71c010353ac8f445907da3abebbdf84
+      internalID: -1587653926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37fbc733f768842aa22a74e3f8e67f
+      internalID: 183643014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 0, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b285bdc4f2eac4ab391379a25b0d8e
+      internalID: 797896800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 8.5}
+        - {x: -1, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2289f6edee717d147a87ac3e1887ad51
+      internalID: -1252929858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass1_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 85
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6678e89c9593a164ab2d4547ca23d627
+      internalID: 1609313606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae77f03a16f2b0945b5918b794a0215f
+      internalID: 464107419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4fe5f71cfb67648829688f85b62e1a
+      internalID: 941994599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3842b5d6075add4cb88d934fa676bfa
+      internalID: -860026367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f20508f9eed5d408834691923afc68
+      internalID: -1030780776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ef4e299f2b0a0429a4f7d24240a60f
+      internalID: -1437864968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941e65f915c5a3c47b66c40e9f9fa002
+      internalID: 1158027362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3ce0c26ca167341894d25fa7e700aa
+      internalID: 1215348192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fde94227514244b8ecb33d553743e1
+      internalID: 1139759524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83177bc531d6aa44d81fb17c11fee5e4
+      internalID: 176334222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dd4376cd2e265479a471a7cef7bef5
+      internalID: 589672715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_grass0_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 68
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 4.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 1.5}
+        - {x: 2, y: 4.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cfe3bd3de214a4dac8922c87a183e0
+      internalID: -1622355133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610dde8657a542640adaaf6883f78bda
+      internalID: -1189890711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814dc6e58831b0f4b99ce59897f27390
+      internalID: 315702944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f5550312d94a84bbce64b63d2e5601
+      internalID: 1503573854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a215a2ca15cc0e4688d08080ad52a92
+      internalID: -1598597084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b215a923de99b4d9eb302a2a2d829e
+      internalID: 1528141027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a2b9f4aae90b84194d4b516e0e267a
+      internalID: 1654860957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fca054fb67b2994a863309066b987e2
+      internalID: -1075113374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0120a3c415c9b4ebc41ac1fc3f5067
+      internalID: -1590923651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 6.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df1c4a697d4abf4da6c637e3cf35480
+      internalID: -309319660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d39dd09618d3941801dbcd8dbb1ceb
+      internalID: -361989811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry1_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 51
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8.5}
+        - {x: -8, y: 5.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 5.5}
+        - {x: 2, y: 8.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6a6fe99e53e2b4cb2e9abe55f46865
+      internalID: 621423253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d794fdedcd1eb469aac341d09ea4ca
+      internalID: -588192308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f437fce35522f174ca98d3164bf73403
+      internalID: 1952576817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77023765d0889ea4ab2f124d09721195
+      internalID: 703857223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e334fd0d03a2a054eb29ecaec9e38054
+      internalID: -1383502298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a54fdfdf534b745b100fb2ef2ce11f
+      internalID: 1720577919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87e5fda597b054894b8a5f78f7955a
+      internalID: -1210923332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a319f6ee857a042a94f353865841ba
+      internalID: 1288029430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeda4baf87db654e873b98c1e6ebaa1
+      internalID: 859239024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaf77df956723e4dbb29575c2584a37
+      internalID: -957296554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38351d4deb3125f4b8376b6056895179
+      internalID: -808087699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_dry0_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 34
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af69b33e90cf6343b70514dca2359cd
+      internalID: 974019952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandstone1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b62c99bb420241aa6a557f78fd7ab
+      internalID: -1647962113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fc0667f5fc9764cae257c3dd39db07
+      internalID: -1643403279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e5f864cb99c93449e7a72973cd9f75
+      internalID: -1451997614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clay1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f754c09231961a46b19d520b0ff9d81
+      internalID: 1633743901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved1_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17682be005738fe4b82cfdfa60615228
+      internalID: -805233620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved1_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf0ae9b83d4ff54397197cc44b4f3d8
+      internalID: -1039212700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved1_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94fee1c50125b64bb283e480434abde
+      internalID: 600917601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved1_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829e9466e4e7f0f4cb97374acc8eeaad
+      internalID: 1021479588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge1_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539937953f25dd14f9d501a6e69559f1
+      internalID: 957682421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge1_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347004519ea87404ca818a3eeabfe13c
+      internalID: -928243613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ace972740029d4fb4cbd5b8e7be785
+      internalID: 315299098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandstone0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2121a07e13aaaad46829d24dfd8ba3c7
+      internalID: 388640823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d70d78e9cef6854d81a0999e195f50c
+      internalID: -997288158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff5b87915d28cd4dba3f216b5a3e43c
+      internalID: 1659344277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clay0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69307419a1dba2b478c38eb8ac8ec533
+      internalID: 1672740837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved0_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2341aa435726a8044a76a0ca503b9c78
+      internalID: -1175198313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved0_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d751fa8ec7e04ea2d163c9ad6cb85
+      internalID: 753475319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved0_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a7ff6472959944390f192a1d08d626
+      internalID: 628368944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paved0_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95071a9448602934388b1dd808d39eff
+      internalID: 1012870708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge0_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278ebf93429fee44992a6d7045ad79a3
+      internalID: -1131091456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bridge0_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fbfd17933606249bed78a8f056a708
+      internalID: 888546692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 4.5}
+        - {x: -8, y: -5.5}
+        - {x: -2, y: -8.5}
+        - {x: 2, y: -8.5}
+        - {x: 8, y: -5.5}
+        - {x: 8, y: 4.5}
+        - {x: 2, y: 7.5}
+      physicsShape:
+      - - {x: 0, y: -8.5}
+        - {x: 8, y: 0}
+        - {x: 0, y: 8.5}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5e537da5e1a674aaf8bfc06203be31
+      internalID: 1008433774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      water1_0: 776138311
+      road_dry0_9: -808087699
+      road_grass1_9: -1252929858
+      road_dry0_5: -1210923332
+      ice0: -1374986184
+      road_grass0_8: 176334222
+      reed: -1108064390
+      road_dry0_1: 1952576817
+      road_dry1_2: 1503573854
+      spike: -715098707
+      road_dry0_0: -588192308
+      road_grass0_7: 1139759524
+      road_dry1_10: 621423253
+      water0_3: -2102784639
+      road_dry1_5: 1654860957
+      water0_0: -1353949180
+      water0_1: -599786544
+      grass1: -936646263
+      road_grass0_2: -860026367
+      paved0_3: 1012870708
+      paved0_1: 753475319
+      fence1: 315299098
+      snow0: -1208383423
+      slime1_0: 543481942
+      road_grass1_4: -533975089
+      road_grass1_10: 1609313606
+      paved1_2: 600917601
+      paved1_3: 1021479588
+      brick0: 1659344277
+      rock0: -547684562
+      paved0_0: -1175198313
+      road_grass0_10: -1622355133
+      road_grass0_6: 1215348192
+      road_grass1_8: 797896800
+      stone0: -997288158
+      road_dry0_4: 1720577919
+      road_grass1_0: -379221700
+      pillars: 1148387230
+      slime1_3: -1993707793
+      road_dry1_8: -309319660
+      wood: 309744543
+      paved1_1: -1039212700
+      grass0: 1688739384
+      dry0: 856162508
+      road_grass1_3: 942851999
+      water0_2: 787467342
+      road_dry1_: -1189890711
+      road_dry1_7: -1590923651
+      road_grass0_1: 941994599
+      water1_3: -2098240872
+      lava0: 1597598919
+      brick1: -1451997614
+      bridge1_0: 957682421
+      sandstone1: -1647962113
+      stone1: -1643403279
+      flower: -1867144555
+      road_grass0_0: 464107419
+      tombstone: 667900823
+      paved0_2: 628368944
+      trunk: -1441056040
+      road_grass1_2: 819778324
+      bridge0_0: -1131091456
+      dirt0: -755187748
+      road_dry0_2: 703857223
+      sandstone0: 388640823
+      bridge1_1: -928243613
+      dry1: -1618734306
+      paved1_0: -805233620
+      slime0_1: -1789149606
+      hedge: -1084285450
+      clay1: 1633743901
+      road_grass1_1: 206098678
+      road_dry0_6: 1288029430
+      road_dry0_10: 974019952
+      road_dry0_3: -1383502298
+      slime1_1: 1279409942
+      road_dry1_6: -1075113374
+      water1_2: 1911899652
+      road_grass0_4: -1437864968
+      road_grass0_3: -1030780776
+      bush: 51048509
+      slime0_3: -1386603896
+      road_grass0_9: 589672715
+      road_grass1_7: 183643014
+      clay0: 1672740837
+      road_dry1_9: -361989811
+      road_dry0_7: 859239024
+      ice1: -463189173
+      road_dry0_8: -957296554
+      road_grass1_6: -1587653926
+      slime1_2: -1534661770
+      rock1: 1626014986
+      sand0: -1956513203
+      slime0_2: 1668230621
+      rock: -1130897072
+      road_grass0_5: 1158027362
+      bridge0_1: 888546692
+      road_dry1_3: -1598597084
+      dirt1: -1522841545
+      lava1: 333756328
+      coral: 163469008
+      fence0: 1008433774
+      snow1: 1721754015
+      cactus: -1787012154
+      sand1: -1351073295
+      road_dry1_1: 315702944
+      road_dry1_4: 1528141027
+      road_grass1_5: 544816524
+      slime0_0: 2088630102
+      water1_1: 512731349
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

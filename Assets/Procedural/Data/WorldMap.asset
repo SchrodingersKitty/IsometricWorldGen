@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35a34ab07795a934fa53d8d72e10b1bb, type: 3}
+  m_Name: WorldMap
+  m_EditorClassIdentifier: 
+  heightMap: {fileID: 11400000, guid: 36953472f95415348a86877ada489550, type: 2}
+  temperatureMap: {fileID: 11400000, guid: 5bf29985c2dd5494c8edaae43ae9bc21, type: 2}
+  vegetationMap: {fileID: 11400000, guid: 75c1fc690eebe3449a698e688d8452b6, type: 2}
+  waterMap: {fileID: 11400000, guid: 21374ba1a69ed8649aa137338cf629df, type: 2}
+  dangerMap: {fileID: 11400000, guid: 97024edd90a84e54aa506e9504a25f3d, type: 2}
