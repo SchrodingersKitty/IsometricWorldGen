@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1687ece4142a4e4449362e5c3486fd71, type: 3}
   m_Name: TemperatureMap
   m_EditorClassIdentifier: 
-  noiseFunction: 1
+  noiseFunction: 2
   noiseScale: 0.04
+  noiseMultiplier: 1.9
   octaves: 8
